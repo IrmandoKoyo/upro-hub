@@ -8,7 +8,7 @@ Pusat proyek Unklab dalam satu halaman: bersih, cepat, dan mudah dikembangkan.
 
 Contoh penggunaan route:
 - `upro.web.id` -> homepage utama
-- `upro.web.id/yourporjects` -> proyek mata kuliah DavizClass (via rewrite/subpath)
+- `upro.web.id/yourporjects` -> proyek mata kuliah (Tertentu) (via rewrite/subpath)
 
 ## Teknologi
 
