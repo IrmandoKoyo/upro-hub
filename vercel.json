@@ -1,0 +1,36 @@
+{
+  "rewrites": [
+    {
+      "source": "/davizclass",
+      "destination": "https://ravenstack-ai-dashboard.vercel.app/davizclass"
+    },
+    {
+      "source": "/davizclass/:path*",
+      "destination": "https://ravenstack-ai-dashboard.vercel.app/davizclass/:path*"
+    },
+    {
+      "source": "/frontendclass",
+      "destination": "https://unklab-dining-portal.vercel.app/frontendclass"
+    },
+    {
+      "source": "/frontendclass/:path*",
+      "destination": "https://unklab-dining-portal.vercel.app/frontendclass/:path*"
+    },
+    {
+      "source": "/sadclass",
+      "destination": "https://klinik-sentosa-sim.vercel.app/sadclass"
+    },
+    {
+      "source": "/sadclass/:path*",
+      "destination": "https://klinik-sentosa-sim.vercel.app/sadclass/:path*"
+    },
+    {
+      "source": "/unfollowerdetector",
+      "destination": "https://unfollower-detector.web.app"
+    },
+    {
+      "source": "/unfollowerdetector/:path*",
+      "destination": "https://unfollower-detector.web.app/:path*"
+    }
+  ]
+}
