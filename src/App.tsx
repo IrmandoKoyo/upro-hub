@@ -23,6 +23,13 @@ const projects = [
     status: 'Live',
   },
   {
+    title: 'Sixt SE EV Fleet GDSS',
+    description: 'Group Decision Support System (GDSS) pemilihan armada mobil listrik korporat Sixt SE menggunakan Linear BWM (2016), CoCoSo (2019), Borda & Copeland.',
+    href: '/dssclass',
+    repo: 'https://github.com/IrmandoKoyo/sixt-ev-gdss',
+    status: 'Live',
+  },
+  {
     title: 'Unfollower Detector',
     description: 'Deteksi siapa yang tidak follback kamu di Instagram secara aman tanpa login password.',
     href: '/unfollowerdetector',
@@ -133,6 +140,7 @@ function App() {
               <li className="flex items-center gap-2"><ArrowUpRight size={16} className="text-accent" />`upro.web.id/davizclass` untuk proyek visualisasi data.</li>
               <li className="flex items-center gap-2"><ArrowUpRight size={16} className="text-accent" />`upro.web.id/frontendclass` untuk proyek sistem kantin.</li>
               <li className="flex items-center gap-2"><ArrowUpRight size={16} className="text-accent" />`upro.web.id/sadclass` untuk sistem informasi manajemen klinik.</li>
+              <li className="flex items-center gap-2"><ArrowUpRight size={16} className="text-accent" />`upro.web.id/dssclass` untuk sistem pendukung keputusan grup (GDSS) armada EV Sixt SE.</li>
               <li className="flex items-center gap-2"><ArrowUpRight size={16} className="text-accent" />`upro.web.id/unfollowerdetector` untuk deteksi unfollower Instagram.</li>
               <li className="flex items-center gap-2"><Layers size={16} className="text-accent" />Mudah ditambah untuk proyek berikutnya.</li>
             </ul>

@@ -25,6 +25,14 @@
       "destination": "https://klinik-sentosa-sim.vercel.app/sadclass/:path*"
     },
     {
+      "source": "/dssclass",
+      "destination": "https://sixt-ev-gdss.vercel.app/dssclass"
+    },
+    {
+      "source": "/dssclass/:path*",
+      "destination": "https://sixt-ev-gdss.vercel.app/dssclass/:path*"
+    },
+    {
       "source": "/unfollowerdetector",
       "destination": "https://unfollower-detector.web.app"
     },
