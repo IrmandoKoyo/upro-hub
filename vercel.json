@@ -39,6 +39,14 @@
     {
       "source": "/unfollowerdetector/:path*",
       "destination": "https://unfollower-detector.web.app/:path*"
+    },
+    {
+      "source": "/kmclass",
+      "destination": "https://careerbridge-km-web.vercel.app/kmclass"
+    },
+    {
+      "source": "/kmclass/:path*",
+      "destination": "https://careerbridge-km-web.vercel.app/kmclass/:path*"
     }
   ]
 }

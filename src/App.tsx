@@ -36,6 +36,13 @@ const projects = [
     repo: 'https://github.com/IrmandoKoyo/unfollower-detector',
     status: 'Live',
   },
+  {
+    title: 'CareerBridge KM Portal',
+    description: 'Basis pengetahuan panduan karier & strategi mencari kerja pertama bagi lulusan baru (fresh graduate) terintegrasi Firebase Firestore & Google Drive.',
+    href: '/kmclass',
+    repo: 'https://github.com/IrmandoKoyo/careerbridge-km-web',
+    status: 'Live',
+  },
   { title: 'Unklab Insight', description: 'Portal visual project showcase dan progress engineering UPRO.', href: '#', status: 'Planning' },
 ]
 
@@ -142,6 +149,7 @@ function App() {
               <li className="flex items-center gap-2"><ArrowUpRight size={16} className="text-accent" />`upro.web.id/sadclass` untuk sistem informasi manajemen klinik.</li>
               <li className="flex items-center gap-2"><ArrowUpRight size={16} className="text-accent" />`upro.web.id/dssclass` untuk sistem pendukung keputusan grup (GDSS) armada EV Sixt SE.</li>
               <li className="flex items-center gap-2"><ArrowUpRight size={16} className="text-accent" />`upro.web.id/unfollowerdetector` untuk deteksi unfollower Instagram.</li>
+              <li className="flex items-center gap-2"><ArrowUpRight size={16} className="text-accent" />`upro.web.id/kmclass` untuk portal basis pengetahuan panduan karier lulusan baru (CareerBridge).</li>
               <li className="flex items-center gap-2"><Layers size={16} className="text-accent" />Mudah ditambah untuk proyek berikutnya.</li>
             </ul>
           </div>
